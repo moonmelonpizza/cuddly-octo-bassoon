@@ -11,7 +11,7 @@ from langchain.chains.question_answering import load_qa_chain
 from langchain.callbacks import get_openai_callback
 import os
 from langchain.embeddings.llamacpp import LlamaCppEmbeddings
-OpenAI.openai_api_key= os.getenv('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')
+OpenAI.openai_api_key= os.getenv(*insert API key*)
 
 
 # Sidebar contents
